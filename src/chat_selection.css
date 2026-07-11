@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a2e 100%);
+    color: #fff;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.CipherWhisper {
+    font-size: 42px;
+    font-weight: bold;
+    color: #F48FB1;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #F48FB1;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* User Cards */
+.user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.user-card {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 16px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.user-card:hover {
+    background-color: rgba(244, 143, 177, 0.15);
+    transform: translateY(-3px);
+    border-color: #F48FB1;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-right: 15px;
+    flex-shrink: 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.user-info {
+    flex: 1;
+}
+
+.user-info .email {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.arrow {
+    font-size: 22px;
+    color: #F48FB1;
+}

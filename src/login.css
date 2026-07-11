@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a2e 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.CipherWhisper {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    color: #F48FB1;
+    margin-bottom: 20px;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 50px 60px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    max-width: 420px;
+    width: 90%;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    color: #F48FB1;
+    font-size: 31px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #F48FB1;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.login-button:hover {
+    background-color: #EC407A;
+}
+
+.register-text {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-text a {
+    color: #F48FB1;
+    text-decoration: none;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .login-container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    button.login-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
