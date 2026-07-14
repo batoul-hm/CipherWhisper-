@@ -1,6 +1,5 @@
 <?php
-
-$host = 'mysql';
+$host = 'mysql-se';      
 $user = 'batoul';
 $password = 'root';
 $db = 'BatoulTel';
@@ -8,6 +7,6 @@ $db = 'BatoulTel';
 $conn = mysqli_connect($host, $user, $password, $db);
 
 if (!$conn) {
-    echo "connection error --> " . mysqli_connect_error();
+    die("Connection failed: " . mysqli_connect_error());
 }
 ?>
